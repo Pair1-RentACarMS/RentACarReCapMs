@@ -60,7 +60,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RentACarApiRentalApplication">
+  <component name="RunManager" selected="Spring Boot.RentACarApiDiscoveryServiceApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.developersblog.rentacar.api.apigateway.ApiGatewayApplication" />
@@ -69,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RentACarApiDiscoveryService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="RentACarApiDiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="RentACarApiDiscoveryService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.appsdeveloperblog.rentacar.discovery.service.RentACarApiDiscoveryServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -101,7 +101,7 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.RentACarApiDiscoveryService" />
+      <item itemvalue="Spring Boot.RentACarApiDiscoveryServiceApplication" />
       <item itemvalue="Spring Boot.RentACarApiRentalApplication" />
       <item itemvalue="Spring Boot.RentACarApiInvoiceApplication" />
       <item itemvalue="Spring Boot.RentACarApiUserApplication" />
@@ -116,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639729282407</updated>
       <workItem from="1639729292395" duration="646000" />
-      <workItem from="1639730030174" duration="300000" />
+      <workItem from="1639730030174" duration="457000" />
     </task>
     <servers />
   </component>
