@@ -1,7 +1,5 @@
 package com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.commands.create;
 
-import java.time.LocalDate;
-
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;
@@ -9,7 +7,7 @@ import org.axonframework.modelling.command.AggregateLifecycle;
 import org.axonframework.spring.stereotype.Aggregate;
 import org.springframework.beans.BeanUtils;
 
-import ch.qos.logback.core.joran.util.beans.BeanUtil;
+import java.time.LocalDate;
 
 @Aggregate
 public class CreateRentalAggregate {

@@ -1,11 +1,10 @@
 package com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.commands.create;
 
-import java.time.LocalDate;
-
-import org.axonframework.modelling.command.TargetAggregateIdentifier;
-
 import lombok.Builder;
 import lombok.Data;
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
+import java.time.LocalDate;
 
 @Data
 @Builder

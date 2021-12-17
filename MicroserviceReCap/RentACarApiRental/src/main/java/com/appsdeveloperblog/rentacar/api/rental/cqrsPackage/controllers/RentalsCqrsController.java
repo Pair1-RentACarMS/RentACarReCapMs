@@ -1,8 +1,7 @@
 package com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.controllers;
 
-import java.time.LocalDate;
-import java.util.UUID;
-
+import com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.commands.create.CreateRentalCommand;
+import com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.restModels.CreateRentalRestModel;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.commands.create.CreateRentalCommand;
-import com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.restModels.CreateRentalRestModel;
+import java.time.LocalDate;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/rentalcqrs")

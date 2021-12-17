@@ -1,10 +1,8 @@
 package com.appsdeveloperblog.rentacar.api.rental.cqrsPackage.features.commands.create;
 
-import java.time.LocalDate;
-
-import org.axonframework.modelling.command.TargetAggregateIdentifier;
-
 import lombok.Data;
+
+import java.time.LocalDate;
 
 @Data
 public class RentalCreatedEvent {
