@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/rentalcqrs")
+@RequestMapping("/rentalscqrs")
 public class RentalsCqrsController {
 	
 	private CommandGateway commandGateway;
